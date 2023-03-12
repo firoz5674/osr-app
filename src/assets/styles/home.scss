@@ -1,0 +1,146 @@
+
+.home-main {
+  .home-banner {
+    > img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+    }
+  }
+  .keywords {
+    padding: 80px 0px 30px 0px;
+    .card {
+      border: none;
+      text-align: center;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.18);
+      border-radius: 6px;
+      padding: 14px;
+      margin-bottom: 24px;
+      min-height: 120px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .card-title {
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 0;
+      }
+    }
+    .info {
+
+    }
+  }
+  .dhan-varsha {
+    .dhan-varsha-header {
+      background-color: #e8e8e8;
+      padding: 38px 0px 30px 0px;
+      .title {
+        font-size: 24px;
+        word-break: break-all;
+        text-align: center;
+        line-height: 34px;
+        @media (max-width: 768px) {
+          margin-bottom: 28px;
+        }
+      }
+    }
+    .dhan-varsha-content {
+      padding: 50px 0px 20px 0px;
+      .dhan-varsha-link {
+        background-color: $primary-color;
+        padding: 28px 10px;
+        display: inline-block;
+        color: white;
+        font-weight: 700;
+        font-size: 24px;
+        text-decoration: none;
+        border-radius: 6px;
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .live-result {
+    padding: 50px 0px 20px 0px;
+    .live-result__header {
+      background-color: $primary-color;
+      padding: 30px 0px;
+      margin-bottom: 50px;
+      .title {
+        font-size: 32px;
+        margin-bottom: 0;
+        color: white;
+        text-align: center;
+        padding: 0px 30%;
+        line-height: 50px;
+      }
+    }
+    .row {
+      margin-left: 0;
+      margin-right: 0;
+      .satta-name {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .card {
+        margin-bottom: 22px;
+        .card-header {
+          text-align: center;
+          font-weight: 700;
+          padding: 12px 0px;
+          font-size: 24px;
+        }
+        .card-body {
+          padding: 12px 8px 12px 0px;
+          th {
+            width: 16.666666%;
+            text-align: center;
+            padding-bottom: 20px;
+            color: $primary-color;
+            font-weight: 700;
+            vertical-align: middle;
+          }
+          td {
+            width: 16.666666%;
+            vertical-align: middle;
+            padding-bottom: 23px;
+            font-weight: 600;
+            text-align: center;
+            &.td5 {
+              width: 1%;
+              &.big-size {
+                font-size: 50px;
+                color: $primary-color;
+                font-weight: 700;
+              }
+            }
+          }
+        }
+        &.star-card {
+          padding: 18px 10px;
+          text-align: center;
+          text-transform: uppercase;
+          .title {
+            font-size: 28px;
+            font-weight: 700;
+            margin: 12px 0px 16px 0px;
+            line-height: 46px;
+          }
+          .time {
+            font-size: 22px;
+            margin: 14px 0px 22px 0px;
+          }
+          .link {
+            color: $primary-color;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+    
+  }
+}
+

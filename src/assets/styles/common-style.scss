@@ -1,0 +1,95 @@
+
+
+.header {
+  background-color: #ededed;
+  padding: 20px 0px;
+  .logo {
+    text-align: center;
+    margin-bottom: 2px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: $primary-color;
+  }
+}
+
+.blink-animation {
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 600ms;
+}
+@keyframes blink {
+  from {
+    background-color: $primary-color; color: $content-color;
+  }
+  to {
+    background-color: rgb(63, 205, 77); color: $primary-color;
+  }
+}
+
+.blink-animation2 {
+  animation-name: blink2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 900ms;
+}
+@keyframes blink2 {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.dhan-varsha-animation {
+  animation-name: dhan-varsha;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 900ms;
+}
+@keyframes dhan-varsha {
+  from {
+    background-color: $primary-color; color: white;
+  }
+  to {
+    background-color: rgb(63, 205, 77); color: rgb(45, 42, 9);
+  }
+}
+
+
+.refresh-btn-wrapper {
+  position: fixed;
+  bottom: 20%;
+  right: 0;
+  z-index: 9999;
+  .refresh-btn {
+    background-color: $heading-color;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+  }
+}
+
+.social-media-share {
+  position: fixed;
+  left: 0;
+  bottom: 20%;
+  z-index: 9999;
+  ul {
+    padding-inline-start: initial;
+    li {
+      list-style: none;
+      background-color: $heading-color;
+      padding: 14px;
+      border-bottom: 1px solid rgb(86, 86, 86);
+      img {
+        width: 26px;
+      }
+    }
+  }
+}
